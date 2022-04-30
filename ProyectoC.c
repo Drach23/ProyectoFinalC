@@ -6,7 +6,6 @@ void menu(), adecuacion();
 
 int main(){
 	menu();
-	adecuacion();
 	return 0;
 }
 
@@ -49,8 +48,5 @@ void menu(){
 			break;
 		default:
 			printf("Eleccion no valida, vuelva a intentarlo. ingresando un numero del 1 al 10 \n");
-	}
-	void adecuacion(){
-		
 	}
 }
