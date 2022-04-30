@@ -6,6 +6,7 @@ void menu();
 
 int main(){
 	menu();
+	cobro();
 	return 0;
 }
 
@@ -17,7 +18,7 @@ void menu(){
 	scanf("%i",&opcion);
 	switch(opcion){
 		case 1:
-			printf("Opcion 1");
+			printf("Opcion");
 			break;
 		case 2:
 			printf("opcion 2");
@@ -48,5 +49,10 @@ void menu(){
 			break;
 		default:
 			printf("Eleccion no valida, vuelva a intentarlo. ingresando un numero del 1 al 10 \n");
+	}
+	
+	void cobro(){
+		printf("esto es el cobro")
+		system("PAUSE")
 	}
 }
