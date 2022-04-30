@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <conio.h>
 
-void menu();
+void menu(), adecuacion();
 
 int main(){
 	menu();
-	cobro();
+	adecuacion();
 	return 0;
 }
 
@@ -50,9 +50,7 @@ void menu(){
 		default:
 			printf("Eleccion no valida, vuelva a intentarlo. ingresando un numero del 1 al 10 \n");
 	}
-	
-	void cobro(){
-		printf("esto es el cobro")
-		system("PAUSE")
+	void adecuacion(){
+		
 	}
 }
