@@ -1,11 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
+#include <string.h>
 
-void menu(), adecuacion();
+//declaracion de funciones para usar en todo el codigo
+void menu(), adecuacion(), Login(), UserLogin(), LoginAdmin(), Cuenta1();
+
+
+
+struct Usuario{
+	char UserName[12];
+	int NIP;
+	char Tcuenta[7];
+	int IDcuenta;
+	float ahorro;	
+} Usuario1={"Alexis",1234,"Credito",1,6000},
+  Usuario2={"Luis",5678,"Debito",2,4000},
+  Usuario3={"Roman",8765,"Debito",3,5500},
+  Usuario4={"Guillermo",4321,"Debito",4,4200},
+  Usuario5={"Diego",1221,"Debito",5,5200};
+  
+
 
 int main(){
-	menu();
+	UserLogin();
 	return 0;
 }
 
@@ -50,3 +68,37 @@ void menu(){
 			printf("Eleccion no valida, vuelva a intentarlo. ingresando un numero del 1 al 10 \n");
 	}
 }
+
+void UserLogin(){
+	int intento = 0; 
+	int acceso = 0;
+	char usuario;
+	int clave;
+	do{
+	
+	printf("\n\t\t\tINICIO DE SESION");
+	printf("\n\tUSUARIO: ");
+	scanf("%c",&usuario);
+	printf("\n\tNIP: ");
+	scanf("%i",&clave);
+	
+	if ((usuario == Usuario1.UserName) && (clave == Usuario1.NIP)){
+		acceso = 1;
+		printf("Bienvenido al sistema");
+}else{
+	printf("Usuario y/o NIP incorrectos");
+	intento ++;
+	system("pause");
+}
+}while(intento < 3 && acceso == 0);
+}
+
+
+
+
+void Cuenta1(){
+	printf("bienvenido a cuenta 1");
+}
+
+
+
