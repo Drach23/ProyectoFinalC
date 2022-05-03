@@ -1,4 +1,5 @@
 # ProyectoFinalC
+# Sistema bancario
 proyecto final de C para segundo semestre ICOM
 
 El proyecto consiste en un sistema bancario con las siguientes funcionalidades:
