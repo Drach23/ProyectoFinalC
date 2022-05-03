@@ -5,10 +5,10 @@ El proyecto consiste en un sistema bancario con las siguientes funcionalidades:
 
 FUNCIONALIDADES DE USUARIO.
 
-1.Login - ( comienza, con un menu el cual te pida si eres usuario o admin, si eliges usuario es un inicio de sesion el cual da entrada por nombre de usuario y NIP de 4 digitos ya establecidos. Tienes 3 intentos para agregarlo correctamente o te votara del sistema y el NIP aparece en asteriscos.
+1.Login - comienza, con un menu el cual te pida si eres usuario o admin, si eliges usuario es un inicio de sesion el cual da entrada por nombre de usuario y NIP de 4 digitos ya establecidos. Tienes 3 intentos para agregarlo correctamente o te votara del sistema y el NIP aparece en asteriscos.
 
 
-2.Depositos/retiros -(el usuario contara con un saldo inicial, ese saldo inicial se vera modificado por deposito o retiro de su cuenta)
+2.Depositos/retiros - el usuario contara con un saldo inicial, ese saldo inicial se vera modificado por deposito o retiro de su cuenta segun el lo requiera.
 
 3.Transferencia - se pasara dinero de una cuenta a otra dando el numero de cuenta de la cuenta origen y la cuenta destino.
 
