@@ -22,14 +22,7 @@ FUNCIONALIDADES DE USUARIO.
 
 8. Salir - La funcionalidad de salir pedira una confirmacion antes de ejecutarse, una vez confirmado que desea abandonar el programa se imprimira una despedida con los datos de todos los creadores del algoritmo y las licencias de este. Luego de unos segundos de desplegar esto. Automaticamente cerrara el algoritmo.
 
-FUNCIONALIDADES DE ADMIN
 
-1. Login para determinar si eres admin ingresando un nombre de usuario y tu NIP, es igual al de usuario pero en una diferente rama
-
-2. Al ingresar dispondra de un menu el cual tenga las siguientes dos opciones: Clientes registrados: clientes registrados desplegara una lista de los usuarios a detalle, en esta vendra datos de los usuarios como: Nombre del cliente, Domicilio, Numero de telefono, correo electronico.
-La segunda opcion de este menu es cuentas registradas, con lo cual le imprimira en pantalla lo siguiente: Nombre del cliente,Nombre de usuario, ID de cuenta, Numero de cuenta, Dinero en su cuenta.
-
-
-(este proyecto fue realizado por estudiantes de ing en computacion(ICOM))
+(este proyecto fue realizado por Diego Aquino estudiante de ing en computacion(ICOM))
 
 
